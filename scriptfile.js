@@ -1,4 +1,4 @@
-<script>
+
 // Modal Image Gallery
 function onClick(element) {
   document.getElementById("img01").src = element.src;
@@ -27,4 +27,4 @@ function toggleFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
-</script>
+
