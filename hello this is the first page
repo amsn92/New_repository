@@ -1,1 +1,159 @@
-hello this is the first page
+<!DOCTYPE html>
+<head>
+<!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>LSE Global Society</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="index.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="http://mahardika94.github.io/teabreak.github.io/">Tea Break</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+         */NOTE TO SELF: FIND OUT HOW TO LINK TO DIFFERENT SECTIONS OF THE PAGE*/
+        <li>
+          <a href="">FIRST SECTION</a>
+          </li>
+
+          </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Container (ABOUT) -->
+<div id="band" class="container text-center">
+  <h3>ABOUT LSE GLOBAL SOCIETY</h3>
+  <p><em>Our story...</em></p>
+  <p>We are the LSE Global Society, we do this and that</p>
+  <br>
+
+
+<!-- Container (YOUTUBE VIDEO) -->
+<div id="tour" class="bg-1">
+  <div class="container">
+    <h3 class="text-center">INSPIRATION</h3>
+    
+    /*Inspirational YouTube video here*/
+    </div>
+  </div>
+
+
+    <!-- Container (WHO WE ARE) -->
+    <h3>WHO WE ARE</h3>
+  <div class="row">
+    <div class="col-sm-4">
+<p class="text-center"><strong>Michaela</strong></p><br>
+        <img src="https://scontent.flcy1-1.fna.fbcdn.net/v/t1.0-9/12688167_10207389635437858_4936221709910075650_n.jpg?oh=cc1fd4982bffba8449d7765f7c28445c&oe=58C8A25C" class="img-circle person" alt="Michaela" width="255" height="255">
+      </a>
+      <div id="demo" class="collapse">
+        <p>This is where Michaela tells us about herself</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Anam</strong></p><br>
+        <img src="https://scontent.flcy1-1.fna.fbcdn.net/v/t1.0-1/p160x160/13707727_10210832800323100_9069333400935729289_n.jpg?oh=62c536598f9f42ac3918612e09d0a609&oe=588F5516" class="img-circle person" alt="Anam" width="255" height="255">
+      </a>
+      <div id="demo2" class="collapse">
+        <p>Tell us more about Anam</p>
+
+      </div>
+    </div>
+    <div class="col-sm-4">
+<p class="text-center"><strong>Ann</strong></p><br>
+        <img src="https://scontent.flcy1-1.fna.fbcdn.net/v/t1.0-1/p160x160/13645097_1085926304828945_8085391544112711452_n.jpg?oh=f9773f5b1010a45af47f4429b693f58e&oe=58C1841D" class="img-circle person" alt="Ann" width="255" height="255">
+      <div id="demo3" class="collapse">
+        <p>Ann is a MSc International Relations student...</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+   <!-- Container (PROJECTS) -->
+<div id="projects" class="container">
+  <h3 class="text-center">OUR PROJECTS</h3>
+ </div>
+
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container">
+  <h3 class="text-center">Contact</h3>
+  <p class="text-center"><em>Get in touch</em></p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <p>Find us on social media</p>
+    */SOCIAL MEDIA BUTTONS HERE*/
+
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit">Send</button>
+        </div>
+      </div>	
+    </div>
+  </div>
+  <br>
+
+
+<!-- Footer -->
+<footer>
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  
+  <ul class="list-layout list-inline pull-right" itemscope itemtype="http://schema.org/Organization">
+  
+  <li><a class="social-icon" href="https://www.facebook.com/teabreak" title="Facebook"><span><img src="http://www.djmarcus.me/images/logo-facebook-rond.png" width="35px" height="35px"></span></a>
+  <i class="icon footer-icon icon-facebook"></i>
+  </a></li>
+
+  <li><a class="social-icon" href="https://www.instagram.com/teabreak" class="link-contrast footer-icon-container" title="Instagram">
+  <span><img src="http://static1.squarespace.com/static/5425c775e4b0c458e660ca4b/t/54892441e4b067b9708ad4ec/1418273857939/" width="35px" height="35px"></span>
+  <i class="icon footer-icon icon-instagram"></i>
+  </a></li>
+  
+   <li><a class="social-icon" href="https://www.linkedin.com/teabreak" class="link-contrast footer-icon-container" title="LinkedIn">
+  <span><img src="http://192.185.147.97/~rockingh/wp-content/uploads/2014/07/linkedin.png" width="35px" height="35px"></span>
+  <i class="icon footer-icon icon-linkedin"></i>
+  </a></li>
+  </ul>
+  
+</footer>
+
+</body>
+</html>
