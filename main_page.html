@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="scriptfile.js"></script>
 <link rel="stylesheet" href="stylesheet.css">
 <body>
 
@@ -20,8 +21,10 @@
     </li>
     <li class="w3-left-align"><a href="#home">HOME</a></li>
     <li class="w3-hide-small"><a href="#about"><i class="fa fa-user"></i> ABOUT</a></li>
-    <li class="w3-hide-small"><a href="#projects"><i class="fa fa-th"></i> PROJECTS</a></li>
-    <li class="w3-hide-small"><a href="#contact"><i class="fa fa-envelope"></i> WHAT'S ON</a></li>
+    <li class="w3-hide-small"><a href="#projects"><i class="fa fa-file-powerpoint-o"></i> PROJECTS</a></li>
+    <li class="w3-hide-small"><a href="#calendar"><i class="fa fa-calendar"></i> WHAT'S ON</a></li>
+        <li class="w3-hide-small"><a href="#about_us"><i class="fa fa-group"></i> WHO WE ARE</a></li>
+            <li class="w3-hide-small"><a href="#contact"><i class="fa fa-envelope"></i> CONTACT</a></li>
     <li class="w3-hide-small w3-right">
       <a href="#" class="w3-hover-red">
         <i class="fa fa-search"></i>
@@ -68,34 +71,21 @@
   </div>
 
 </div>
-<div class="w3-row w3-center w3-dark-grey w3-padding-16">
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">GLOBAL HISTORY</span><br>
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">INTERNATIONAL RELATIONS</span><br>
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">GLOBAL HEALTH</span><br>
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">GLOBAL PROJECTS</span><br>
-  </div>
-</div>
+
 
 <!-- Second Parallax Image with Projects Text -->
 <div class="bgimg-2 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
     <span class="w3-xxlarge w3-text-light-grey w3-wide">OUR PROJECTS</span>
-    <p class="w3-center">Click on the topics above to read more about our projects</p>
   </div>
 </div>
 
-<!-- Container (Portfolio Section) -->
+<!-- Container (Projects Section) -->
 <div class="w3-content w3-container w3-padding-64" id="projects">
-  <h3 class="w3-center">EVENTS CALENDAR</h3>
-  <p class="w3-center"><em>This is where we put the calendar</em></p><br>
+  <h3 class="w3-center">OUR PROJECTS</h3>
+  <p class="w3-center"><em>Description of our projects here</em></p><br>
 
+</div>
  
 </div>
 
@@ -108,8 +98,34 @@
   </div>
 </div>
 
-<!-- Third Parallax Image with Portfolio Text -->
+<!-- Third Parallax Image with Calendar Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-light-grey w3-wide">EVENTS CALENDAR</span>
+  </div>
+</div>
+
+<!-- Container (Calendar Section) -->
+<div class="w3-content w3-container w3-padding-64" id="calendar">
+  <h3 class="w3-center">WHAT'S ON?</h3>
+  <p class="w3-center"><em>This is where we put the calendar</em></p><br>
+</div>
+
+<!-- Fourth Parallax Image with Who We Are Text -->
+<div class="bgimg-4 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-light-grey w3-wide">WHO WE ARE</span>
+  </div>
+</div>
+
+<!-- Container (Calendar Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about_us">
+  <h3 class="w3-center">WHO WE ARE</h3>
+  <p class="w3-center"><em>This is where we tell them about us</em></p><br>
+</div>
+
+<!-- Fifth Parallax Image with Contact Text -->
+<div class="bgimg-5 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
      <span class="w3-xxlarge w3-text-light-grey w3-wide">CONTACT</span>
   </div>
@@ -118,7 +134,7 @@
 <!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
   <h3 class="w3-center">WANT TO GET IN TOUCH?</h3>
-  <p class="w3-center"><em>I'd love to hear from you!</em></p>
+  <p class="w3-center"><em>We'd love to hear from you!</em></p>
 
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
@@ -160,37 +176,6 @@
     <i class="fa fa-linkedin w3-hover-text-indigo"></i>
   </div>
 </footer>
-
-<script>
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
-
-// Change style of navbar on scroll
-window.onscroll = function() {myFunction()};
-function myFunction() {
-    var navbar = document.getElementById("myNavbar");
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-navbar" + " w3-card-2" + " w3-animate-top" + " w3-white";
-    } else {
-        navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
-    }
-}
-
-// Used to toggle the menu on small screens when clicking on the menu button
-function toggleFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-</script>
 
 </body>
 </html>
