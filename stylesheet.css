@@ -19,27 +19,27 @@ body, html {
     min-height: 100%;
 }
 
-/* Second image (Portfolio) */
+/* Second image (Projects) */
 .bgimg-2 {
     background-image: url("http://www.globalconnections.org.uk/sites/newgc.localhost/files/styles/610w/public/images/gc-slider/globes-1540px_0.jpg?itok=pqaNGZv4");
     min-height: 400px;
 }
 
-/* Third image (Contact) */
+/* Third image (Calendar) */
 .bgimg-3 {
     background-image: url("http://www.ncl.ac.uk/media/wwwnclacuk/undergraduate/images/supplementarysections/studyabroad/Our-Global-ConnectionsCROP.jpg");
     min-height: 400px;
 }
 
-/* Third image (Contact) */
+/* Fourth image (About us) */
 .bgimg-4 {
-    background-image: url("http://acuns.org/wp-content/uploads/2016/04/United_Nations_Flags_-_cropped.jpg");
+    background-image: url("http://bestwallpaperhd.com/wp-content/uploads/2015/09/Flag-Of-The-United-Nations.jpg");
     min-height: 400px;
 }
 
-/* Third image (Contact) */
+/* Fifth image (Contact) */
 .bgimg-5 {
-    background-image: url("https://blogs.nottingham.ac.uk/aworldincrisis/files/2011/11/International-relations-16660234.jpg");
+    background-image: url("https://www.walldevil.com/wallpapers/w04/153538-architecture-bridges-buildings-cities-city-lights-london-night-time-saint-paul39s-cathedral-united-kingdom.jpg");
     min-height: 400px;
 }
 .w3-wide {letter-spacing: 10px;}
