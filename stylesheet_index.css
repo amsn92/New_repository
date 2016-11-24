@@ -22,3 +22,13 @@
   font-weight: bold;
   font-size: 20px;
 }
+
+body {
+    background-color: #7A9A95;
+  }
+      section {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) }
